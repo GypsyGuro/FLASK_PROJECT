@@ -26,5 +26,15 @@ def guro():
 def guro():
     return "Меня зовут Кира Йошикаге и мне 33 года"
 
+
+@app.route("/wazzuuup")
+def guro():
+    return "чувааааак"
+
+
+@app.route("/waaaazzaaaap")
+def guro():
+    return "чуууувааккккк"
+
 if __name__ == '__main__':
     app.run(debug=True)
