@@ -23,17 +23,17 @@ def guro():
 
 
 @app.route("/bomb")
-def guro():
+def bomb():
     return "Меня зовут Кира Йошикаге и мне 33 года"
 
 
 @app.route("/wazzuuup")
-def guro():
+def wazzuuup():
     return "чувааааак"
 
 
 @app.route("/waaaazzaaaap")
-def guro():
+def waaaazzaaaap():
     return "чуууувааккккк"
 
 if __name__ == '__main__':
