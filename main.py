@@ -21,5 +21,10 @@ def about_me():
 def guro():
     return "qwerty"
 
+
+@app.route("/bomb")
+def guro():
+    return "Меня зовут Кира Йошикаге и мне 33 года"
+
 if __name__ == '__main__':
     app.run(debug=True)
